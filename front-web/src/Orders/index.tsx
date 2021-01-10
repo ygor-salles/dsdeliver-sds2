@@ -7,7 +7,7 @@ import StepsHeader from './StepsHeader';
 import { OrderLocationData, Product } from './types';
 import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
-import Footer from '../Footer';
+import Footer from './../Footer/index';
 import { checkIsSelected } from './helpers';
 import './styles.css'
 
