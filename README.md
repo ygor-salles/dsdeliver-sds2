@@ -18,3 +18,12 @@ Aplicativo Web de entrga de pedidos - Deliver
 
 ## Link do site:
 https://ygor-salles-sds2.netlify.app/
+
+## ATENÇÃO: O PROJETO NÃO RODA LOCALMENTE NO PROFILE PROD! Para rodar o projeto localmente, mude para o profile test.
+
+```bash
+heroku login
+heroku git:remote -a <nome-do-app>
+git remote -v
+git subtree push --prefix backend heroku main
+```
