@@ -19,7 +19,7 @@ Aplicativo Web de entrga de pedidos - Deliver
 ## Link do site:
 https://ygor-salles-sds2.netlify.app/
 
-* Link do backend heroku
+* Link do backend heroku: 
 https://ygor-dsdeliver.herokuapp.com/
 
 ## ATENÇÃO: O PROJETO NÃO RODA LOCALMENTE NO PROFILE PROD! Para rodar o projeto localmente, mude para o profile test.
