@@ -4,6 +4,7 @@ import { Order } from '../types';
 import dayjs from 'dayjs';
 import 'dayjs/locale/pt-br';
 import relativeTime from 'dayjs/plugin/relativeTime'
+import 'intl';
 
 dayjs.locale('pt-br')
 dayjs.extend(relativeTime)
@@ -32,13 +33,13 @@ function OrderCard({ order }: Props) {
     <View style={styles.container}>
         <View style={styles.header}>
             <Text style={styles.orderName}>Pedido {order.id}</Text>
-            <Text style={styles.orderPrice}>R$ {formatPrice(order.total)}</Text>
+            <Text style={styles.orderPrice}>R$ {order.total}</Text>
         </View>
         <Text style={styles.text}>{dateFromNow(order.moment)}</Text>
         <View style={styles.productsList}>
-          {order.products.map(product => {
+          {order.products.map(product => (
             <Text key={product.id} style={styles.text}>{product.name}</Text>
-          })}
+          ))}
         </View>
     </View>
   );
