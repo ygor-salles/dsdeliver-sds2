@@ -30,3 +30,9 @@ heroku git:remote -a <nome-do-app>
 git remote -v
 git subtree push --prefix backend heroku main
 ```
+
+## Link Semana-DEVSuperior
+
+```url
+https://github.com/devsuperior/sds2
+```
