@@ -12,6 +12,9 @@ Aplicativo Web de entrga de pedidos - Deliver
 * ReactJS com typescript
 * Maps com React Leaflet
 
+### App
+* React-Native com typescript
+
 ## Armazenamento em nuvem:
 * frontend: Netlify
 * backend: Heroku
