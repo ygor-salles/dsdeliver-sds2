@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { StyleSheet, Text, View, Alert, Linking } from 'react-native';
+import { StyleSheet, Text, View, Alert, Linking, Button } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { confirmDelivery } from '../api';
 import Header from '../Header';
@@ -53,6 +53,10 @@ function OrderDetails({ route }: Props) {
         <RectButton style={styles.button} onPress={heandleOnCancel}>
           <Text style={styles.buttonText}>CANCELAR</Text>
         </RectButton>
+        
+        {/* <Button title='INICIAR NAVEGAÇÃO' onPress={handleStartNavigation} />
+        <Button title='CONFIRMAR ENTREGA' onPress={handleConfirmDelivery} />
+        <Button title='CANCELAR' onPress={heandleOnCancel} /> */}
       </View>
     </>
   );

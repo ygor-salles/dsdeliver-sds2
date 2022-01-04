@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import Header from '../Header';
 
@@ -25,6 +25,9 @@ function Home() {
         </Text>
       </View>
       <View style={styles.footer}>
+        {/* <View style={styles.button}>
+          <Button title='VER PEDIDOS' onPress={heandleOnPress} />
+        </View> */}
         <RectButton style={styles.button} onPress={heandleOnPress}>
           <Text style={styles.buttonText}>VER PEDIDOS</Text>
         </RectButton>
