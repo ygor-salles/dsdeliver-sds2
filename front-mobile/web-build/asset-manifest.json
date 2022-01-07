@@ -1,0 +1,33 @@
+{
+  "files": {
+    "app.js": "/static/js/app.c38ebd09.chunk.js",
+    "app.js.map": "/static/js/app.c38ebd09.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
+    "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
+    "static/js/2.7584c8f9.chunk.js": "/static/js/2.7584c8f9.chunk.js",
+    "static/js/2.7584c8f9.chunk.js.map": "/static/js/2.7584c8f9.chunk.js.map",
+    "fonts/OpenSans_300Light.ttf": "/./fonts/OpenSans_300Light.ttf",
+    "fonts/OpenSans_300Light_Italic.ttf": "/./fonts/OpenSans_300Light_Italic.ttf",
+    "fonts/OpenSans_400Regular.ttf": "/./fonts/OpenSans_400Regular.ttf",
+    "fonts/OpenSans_400Regular_Italic.ttf": "/./fonts/OpenSans_400Regular_Italic.ttf",
+    "fonts/OpenSans_600SemiBold.ttf": "/./fonts/OpenSans_600SemiBold.ttf",
+    "fonts/OpenSans_600SemiBold_Italic.ttf": "/./fonts/OpenSans_600SemiBold_Italic.ttf",
+    "fonts/OpenSans_700Bold.ttf": "/./fonts/OpenSans_700Bold.ttf",
+    "fonts/OpenSans_700Bold_Italic.ttf": "/./fonts/OpenSans_700Bold_Italic.ttf",
+    "fonts/OpenSans_800ExtraBold.ttf": "/./fonts/OpenSans_800ExtraBold.ttf",
+    "fonts/OpenSans_800ExtraBold_Italic.ttf": "/./fonts/OpenSans_800ExtraBold_Italic.ttf",
+    "favicon-16.png": "/favicon-16.png",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "static/js/2.7584c8f9.chunk.js.LICENSE.txt": "/static/js/2.7584c8f9.chunk.js.LICENSE.txt",
+    "static/media/deliveryman.png": "/static/media/deliveryman.e2b61c48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.2e9f1821.js",
+    "static/js/2.7584c8f9.chunk.js",
+    "static/js/app.c38ebd09.chunk.js"
+  ]
+}
